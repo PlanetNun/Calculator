@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kim,Sebin">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./javascript/main.js"></script>
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+  <main>
+    <div id="calculatorFrame">
+      <div id="displayPanel">0</div>
+      <div id="two-divisions">
+        <div id="button-Numbers">
+          <input type="button" value="9" onclick="clickNine();" />
+          <input type="button" value="8" onclick="clickEight();" />
+          <input type="button" value="7" onclick="clickSeven();" />
+          <input type="button" value="6" onclick="clickSix();" />
+          <input type="button" value="5" onclick="clickFive();" />
+          <input type="button" value="4" onclick="clickFour();" />
+          <input type="button" value="3" onclick="clickThree();" />
+          <input type="button" value="2" onclick="clickTwo();" />
+          <input type="button" value="1" onclick="clickOne();" />
+          <input type="button" value="C" onclick="clearButton();" />
+          <input type="button" value="0" onclick="clickZero();" />
+          <input type="button" value="=" onclick="equalTo();" />
+        </div>
+        <div id="button-Operator">
+          <input class="operator" type="button" value="Add" onclick="add();">
+          <input class="operator" type="button" value="Subtract">
+          <input class="operator" type="button" value="Time">
+          <input class="operator" type="button" value="Divide">
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
